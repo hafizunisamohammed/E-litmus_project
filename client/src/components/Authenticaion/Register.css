@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+.register-logo {
+    display: flex;
+    align-items: center;
+}
+
+.register-container{
+    border: 3px solid black;
+    background: rgba(252, 205, 205, 0.21);
+    position: absolute;
+    width: 28rem;
+    height: 28rem;
+left: 420px;
+top: 120px;
+}
+.register-logo img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.register-logo h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-header{
+    margin-bottom: 10px;
+}
+.register-header h4{
+    position: relative;
+    font-weight: 400px;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 10px;
+    left:30px;
+}
+.retister-header-upper-text{
+    padding: 1px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 2/3;
+
+}
+.textbox{
+ 
+    margin: 30px;
+    padding: 20px;
+}
+
+.textbox input{
+width: fit-content;
+  height: 30px;
+  padding: 9px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 3px;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+}
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #FFAEAE;
+  border:  2 px solid black;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 10;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 80%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #FFAEAE;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.not-a-member-text-register{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    justify-items: center;
+    padding: 4;
+    display: flex;
+    
+  
+
+}
